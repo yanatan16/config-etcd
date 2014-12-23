@@ -1,0 +1,29 @@
+{
+  "name": "config-etcd",
+  "version": "0.0.1",
+  "description": "get config values from etcd in a deep structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanatan16/config-etcd"
+  },
+  "keywords": [
+    "etcd",
+    "configuration",
+    "config"
+  ],
+  "author": "Jon Eisen <jon@joneisen.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanatan16/config-etcd/issues"
+  },
+  "homepage": "https://github.com/yanatan16/config-etcd",
+  "dependencies": {
+    "async": "^0.9.0",
+    "node-etcd": "^3.0.2"
+  },
+  "devDependencies": {}
+}
